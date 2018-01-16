@@ -1,10 +1,13 @@
-// write your code below!
+ /* Write a function named happyHolidays. This function should not accept any parameters and should return the string "Happy holidays!".
+  write your code below! */
 function happyHolidays() {
- return "Happy holidays!";
+  var a = "Happy holidays!";
+ return a;
 }
-
+console.log(a);
 
 function happyHolidaysTo(name) {
+  var nameto = "PeopleBornInJanuary!";
   return "Happy holidays!" + name + "!";
 }
 
